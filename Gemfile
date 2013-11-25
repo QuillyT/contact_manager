@@ -18,6 +18,8 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'sqlite3'
+  gem 'guard-rspec', require: false
+  gem 'rb-fsevent', '0.9.1'
 end
 
 group :production do
