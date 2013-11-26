@@ -19,6 +19,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'guard-rspec', require: false
   gem 'rb-fsevent', '0.9.1'
+  gem 'capybara'
 end
 
 group :production do
